@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - NitroCar</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <main class="login">
+    <h1>NitroCar Oficina</h1>
+    <p>Digite seu e-mail para entrar.</p>
+    <form onsubmit="entrar(); return false;">
+      <input type="email" id="email" placeholder="seuemail@email.com" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <p id="erro" class="erro"></p>
+    <p>
+      <a href="views/publico/sobre.html">Sobre</a> |
+      <a href="views/publico/servicos.html">Serviços</a> |
+      <a href="views/publico/contato.html">Contato</a>
+    </p>
+  </main>
+  <script src="js/login.js"></script>
+</body>
+</html>

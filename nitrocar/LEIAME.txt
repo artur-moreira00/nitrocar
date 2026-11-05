@@ -1,0 +1,3 @@
+NITROCAR - abra o index.html no navegador.
+E-mails: funcionario.nitrocar@email.com | clinte.nitrocar@email.com | administrativo.nitrocar@email.com
+Pastas: css/, js/, views/publico, views/funcionario/telas, views/cliente/telas, views/administrativo/telas

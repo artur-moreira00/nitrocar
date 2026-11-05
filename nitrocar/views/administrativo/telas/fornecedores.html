@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fornecedores - NitroCar</title>
+  <link rel="stylesheet" href="../../../css/estilo.css">
+</head>
+<body>
+  <script src="../../../js/protecao.js" data-perfil="administrativo"></script>
+  <main>
+    <h1>Fornecedores</h1>
+    <p class="subtitulo">Controle das empresas que abastecem a oficina.</p>
+    <div class="cards">
+      <div class="card"><div class="numero">5</div><div class="legenda">Fornecedores cadastrados</div></div>
+      <div class="card"><div class="numero">2</div><div class="legenda">Pedidos em aberto</div></div>
+      <div class="card"><div class="numero">1</div><div class="legenda">Fornecedor inativo</div></div>
+    </div>
+    <div class="caixa">Dois fornecedores têm pedidos aguardando aprovação.</div>
+    <table>
+      <tr><th>Fornecedor</th><th>Categoria</th><th>Telefone</th><th>Situação</th></tr>
+      <tr><td>Auto Peças Brasil</td><td>Peças em geral</td><td>(11) 3000-1111</td><td><span class="etiqueta verde">Ativo</span></td></tr>
+      <tr><td>Lubrificantes Alfa</td><td>Óleos e filtros</td><td>(11) 3000-2222</td><td><span class="etiqueta amarelo">Pedido em aberto</span></td></tr>
+      <tr><td>Freios Forte</td><td>Freios e pastilhas</td><td>(11) 3000-3333</td><td><span class="etiqueta amarelo">Pedido em aberto</span></td></tr>
+      <tr><td>Pneus Central</td><td>Pneus</td><td>(11) 3000-4444</td><td><span class="etiqueta verde">Ativo</span></td></tr>
+      <tr><td>Baterias Max</td><td>Baterias</td><td>(11) 3000-5555</td><td><span class="etiqueta vermelho">Inativo</span></td></tr>
+    </table>
+    <div class="formulario">
+      <h2 style="margin-top:0">Cadastrar novo fornecedor</h2>
+      <label>Nome da empresa</label>
+      <input type="text" placeholder="Ex.: Peças Rápidas">
+      <label>Categoria</label>
+      <select><option>Peças em geral</option><option>Óleos e filtros</option><option>Freios</option><option>Pneus</option></select>
+      <label>Telefone</label>
+      <input type="text" placeholder="(11) 0000-0000">
+      <button onclick="alert('Fornecedor cadastrado!')">Cadastrar fornecedor</button>
+    </div>
+  </main>
+</body>
+</html>
