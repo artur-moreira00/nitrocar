@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orçamentos - NitroCar</title>
+  <link rel="stylesheet" href="../../../css/estilo.css">
+</head>
+<body>
+  <script src="../../../js/protecao.js" data-perfil="cliente"></script>
+  <main>
+    <h1>Orçamentos</h1>
+    <p class="subtitulo">Acompanhe e solicite orçamentos.</p>
+    
+    <table>
+      <tr><th>Nº</th><th>Serviço</th><th>Valor</th><th>Status</th></tr>
+      <tr><td>01</td><td>Troca de pastilhas</td><td>R$ 350</td><td><span class="etiqueta verde">Aprovado</span></td></tr>
+      <tr><td>02</td><td>Alinhamento</td><td>R$ 120</td><td><span class="etiqueta amarelo">Aguardando</span></td></tr>
+      <tr><td>03</td><td>Suspensão dianteira</td><td>R$ 890</td><td><span class="etiqueta azul">Em análise</span></td></tr>
+    </table>
+    <div class="formulario">
+      <h2 style="margin-top:0">Solicitar novo orçamento</h2>
+      <label>Serviço desejado</label>
+      <select><option>Freios</option><option>Suspensão</option><option>Revisão completa</option></select>
+      <label>Descreva o problema</label>
+      <input type="text" placeholder="Ex.: barulho ao frear">
+      <button onclick="alert('Orçamento solicitado!')">Solicitar orçamento</button>
+    </div>
+  </main>
+</body>
+</html>
